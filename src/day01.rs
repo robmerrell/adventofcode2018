@@ -1,8 +1,7 @@
 use std::collections::HashSet;
 
 pub fn run() {
-    // const PUZZLE: &str = include_str!("input.txt");
-    let data = include_str!("../data/day1.txt");
+    let data = include_str!("data/day1.txt");
 
     // parse the input into a vector of ints
     let input: Vec<i32> = data.lines().map(|x| x.parse::<i32>().unwrap()).collect();
