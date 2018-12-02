@@ -4,3 +4,4 @@ version = "0.1.0"
 authors = ["robmerrell <rob@dimpixel.com>"]
 
 [dependencies]
+edit-distance = "2.0.0"
